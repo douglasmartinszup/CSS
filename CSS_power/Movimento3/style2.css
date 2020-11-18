@@ -1,0 +1,85 @@
+/* para editar o fundo da página adicionando imagem*/
+
+body {
+  background-image: url("starwars.png");
+  image-rendering: auto;
+  background-repeat: space;
+  background-attachment: fixed;
+}
+
+/* para editar os textos  parágrafos usando o ID do parágrafo  */
+
+#title {
+  font-family: "Trebuchet MS", Arial, Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 200px;
+  font-weight: bold;
+}
+
+/* ação sobre o título do site */
+#title:hover {
+  color: #000000;
+}
+
+
+/*Configuração do autor */
+#autor {
+  font-family: "Trebuchet MS", Arial, Arial, Helvetica, sans-serif;
+  color: transparent;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: right;
+}
+
+/* ação sobre o titulo do autor */
+#autor:hover {
+  color: white;
+}
+
+#autor:active {
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+#descricao {
+  font-family: "Trebuchet MS", Arial, Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: left;
+  text-indent: 100px;
+}
+
+/* css nas divs */
+
+.top_div {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: rgb(97, 97, 97);
+  opacity: 70%;
+  border-bottom: 5px solid #000000;
+  border-top: 5px solid #000000;
+}
+
+/* Css para tudo */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*animação */
+
+.ball {
+  margin-top: 50px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
